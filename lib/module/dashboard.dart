@@ -8,7 +8,13 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [Container()],
+        children: [
+          Container(
+            child: Column(
+              children: [Text('p balap')],
+            ),
+          )
+        ],
       ),
     );
   }
