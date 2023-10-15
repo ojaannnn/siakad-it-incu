@@ -11,7 +11,7 @@ class DashboardPage extends StatelessWidget {
         children: [
           Container(
             child: Column(
-              children: [Text('p balap')],
+              children: [Text('')],
             ),
           )
         ],
